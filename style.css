@@ -1,0 +1,80 @@
+body
+{
+    background-color: #343a40;
+    color: white;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+#hearder-center
+{
+    display: flex;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    border-bottom: white solid 2px;
+    margin: 50px 0;
+}
+
+#marge
+{
+    border: white solid 1px;
+    width: 90px;
+    height: 70px;
+    margin-right: 199px;
+    text-align: center ;
+}
+#marge span
+{
+    font-family: Mulish;
+    font-size: 50px;
+    color: #fff;
+
+}
+
+#arranjo
+{
+    display: flex;
+}
+#formulario
+{
+    display: flex;
+    border: white solid 2px;
+    min-width: 300px;
+    padding: 5px 10px;
+}
+#cardscontainer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    border:aquamarine solid 2px;
+
+    padding: 30px;
+}
+#row
+{
+    display: flex;
+    justify-content: space-around;
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.margin-card {
+    margin: 15px;
+}
+.card-title, .card-subtitle, .card-text {
+    color: #262626;
+}
+#cards-background {
+    background-color: aquamarine;
+}
