@@ -641,7 +641,7 @@ window.onload = function ()
 {
     palavra = getStorage();
     alf_I = localStorage.getItem('indice') || -1;
-    //setData();
+    setData(); // para testes insere dados na lista
     initCards();
     removerClick();
 };
